@@ -1,0 +1,32 @@
+.contact-list-container {
+    .icon {
+        height: 2em;
+        width: 2em;
+
+        &.menu {
+            display: none;
+
+            @include for-mobile-layout {
+                display: block;
+                position: absolute;
+                top: 1em;
+                right: 1em;
+            }
+
+            &:hover {
+                transition: transform 1s;
+                transform: rotate(360deg);
+            }
+        }
+    }
+
+    .contact-list {
+        height: 76vh;
+        padding: 0px;
+        margin-block-start: 0.5em;
+        margin-inline-end: 0.5em;
+        list-style: none;
+        overflow-y: auto;
+        direction: rtl;
+    }
+}

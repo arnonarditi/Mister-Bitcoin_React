@@ -1,0 +1,23 @@
+.transfer-fund {
+    margin-block: 2em;
+
+    .amount-countainer {
+        display: flex;
+        align-items: flex-end;
+        gap: 0.4em;
+
+        .amount-field{
+            margin: 0;
+        }
+
+        button {
+            box-shadow: 0px 0px 5px black;
+            border-radius: 0.3em;
+            border: none;
+            
+            &:hover {
+                background: rgb(180, 177, 177);
+            }
+        }
+    }
+}

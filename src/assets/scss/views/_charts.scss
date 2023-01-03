@@ -1,0 +1,31 @@
+.charts-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @include for-mobile-layout {
+        flex-direction: column;
+
+        .recharts-surface {
+            width: 300px;
+        }
+
+        .recharts-wrapper{
+            width: 274px;
+        }
+
+        .recharts-legend-wrapper{
+            width: fit-content;
+        }
+
+        .recharts-default-tooltip{
+            height: fit-content;
+            width: fit-content;
+
+            .recharts-tooltip-label{
+                color: darkgray;
+            }
+        }
+    }
+}

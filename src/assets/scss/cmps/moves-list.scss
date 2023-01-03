@@ -1,0 +1,14 @@
+.moves-list {
+    width: 95%;
+
+    ul {
+        list-style: none;
+        padding: 0px;
+        overflow: auto;
+        height: 16vh;
+
+        p {
+            font-size: 0.7em;
+        }
+    }
+}
